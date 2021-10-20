@@ -1,5 +1,6 @@
 
 loginmgr: 管理多个 login 服务的调度者，根据 login 负载通知客户端应该连接哪个login服务。即负载均衡。
+    
     1，接收多个客户端连接，
     2，接收多个 login 连接，login 会上传自己的负载，
     3，loginmgr 根据各个 login 服务的负载，通知客户端连接哪个 login 服务，
